@@ -8,6 +8,8 @@ print("All elements:")
 for i in range(len(numbers)):
     print(numbers[i])
 
+print("hoi")
+
 # Display elements in even positions
 print("\nElements in even positions:")
 for i in range(0, len(numbers), 2):
