@@ -1,0 +1,9 @@
+N = input()
+
+if N.isdigit() and int(N) >= 10:
+    first_digit = int(N[0])
+    last_digit = int(N[-1])
+    difference = abs(first_digit - last_digit)
+    print(difference)
+else:
+    print("Invalid Input")
