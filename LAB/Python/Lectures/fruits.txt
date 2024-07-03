@@ -1,0 +1,7 @@
+Product|Quantity|Price
+Television | 45 | 1455.0
+Tv | 1 | 45.0
+Radio|45|234.5
+Computer|56|4567.77
+|89|9876.99
+Ipad|56|74567.99
