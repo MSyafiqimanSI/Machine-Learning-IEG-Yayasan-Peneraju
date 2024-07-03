@@ -1,7 +1,16 @@
-def darab (n):
-    for i in range(1,13):
-        print(i,"x", n, "=", i*n)
+# alist = []
+# for i in {1,2,3,4,5,6}:
+#     alist.append(i)
+#     print(i)
 
+# print(alist)
 
-n = int(input())
-darab(n)
+nestedlist = [
+    [1,2,3],
+    [3,4,5],
+    [1,2,3]
+
+]
+nestedlist = [tuple(item) for item in nestedlist]
+
+print(set(nestedlist))
